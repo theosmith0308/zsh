@@ -1,8 +1,6 @@
 # Editor
-EDITOR=nvim
 alias nv='nvim'
 alias snv='sudo -e'
-bindkey -v
 
 # Better ls
 alias ls='eza --color=always --group-directories-first --icons=always'
