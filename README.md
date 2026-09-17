@@ -33,7 +33,7 @@ brew install zsh neovim eza bat fd fzf zoxide starship ripgrep
 **1. Clone the repo**
 
 ```sh
-git clone https://github.com/radleylewis/zsh ~/.config/zsh
+git clone https://git@github.com:theosmith0308/zsh.git
 ```
 
 **2. Point zsh at the config directory**
