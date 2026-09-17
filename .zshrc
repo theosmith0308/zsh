@@ -23,13 +23,6 @@ setopt AUTOCD
 setopt NOBEEP
 setopt NUMERIC_GLOB_SORT  # sort file10 after file9, not after file1
 
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-# zstyle :compinstall filename '/home/theo/.config/zsh/.zshrc'
-#
-# compinit
-# End of lines added by compinstall
-
 # =========================================================
 # Smart directory navigation & lf
 # =========================================================
