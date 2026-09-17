@@ -1,4 +1,3 @@
-# Lines configured by zsh-newuser-install
 
 # =========================================================
 # History
@@ -23,14 +22,6 @@ setopt AUTOCD
 setopt NOBEEP
 setopt NUMERIC_GLOB_SORT  # sort file10 after file9, not after file1
 
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/theo/.config/zsh/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-
 # =========================================================
 # Smart directory navigation & lf
 # =========================================================
@@ -46,6 +37,9 @@ eval "$(zoxide init zsh)"
 # =========================================================
 # Completion
 # =========================================================
+
+# Load compinit
+autoload -Uz compinit
 
 # Initialize completion with cached metadata file
 compinit -d "$XDG_CACHE_HOME/zsh/zcompdump"
