@@ -2,18 +2,19 @@
 EDITOR=nvim
 alias nv='nvim'
 alias snv='sudo -e'
+bindkey -v
 
 # Better ls
-alias ls='eza --icons'
+alias ls='eza --color=always --group-directories-first --icons=always'
 
 # Detailed listing
-alias ll='eza -lh --icons --git'
+alias ll='eza -lh --color=always --group-directories-first --icons=always --git'
 
 # Detailed listing including hidden files
-alias la='eza -lah --icons --git'
+alias la='eza -lah --color=always --group-directories-first --icons=always --git'
 
 # Tree view
-alias tree='eza --tree --icons'
+alias tree='eza --tree --icons=always'
 
 # Dotfiles only
 alias l.="eza -a | grep -e '^\.'"

@@ -2,12 +2,11 @@
 # fzf
 # =========================================================
 
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --strip-cwd-prefix'  # strip-cwd-prefix removes the leading ./ from results
+export FZF_DEFAULT_COMMAND="fd --type f --hidden --strip-cwd-prefix --exclude .snapshots"  # strip-cwd-prefix removes the leading ./ from results
 
 # Ctrl-T uses fd
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .snapshots"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+# Alt-C uses fd
 export FZF_ALT_C_COMMAND="fd --type d --hidden --strip-cwd-prefix --exclude .snapshots"
 
 # UI

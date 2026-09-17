@@ -1,3 +1,4 @@
+# Lines configured by zsh-newuser-install
 
 # =========================================================
 # History
@@ -21,6 +22,13 @@ setopt HIST_FIND_NO_DUPS
 setopt AUTOCD
 setopt NOBEEP
 setopt NUMERIC_GLOB_SORT  # sort file10 after file9, not after file1
+
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+# zstyle :compinstall filename '/home/theo/.config/zsh/.zshrc'
+#
+# compinit
+# End of lines added by compinstall
 
 # =========================================================
 # Smart directory navigation & lf
@@ -67,6 +75,8 @@ fi
 
 # fzf configuration
 source "$ZDOTDIR/fzf.zsh"
+# Enable fzf key bindings and auto-completion
+source /usr/share/fzf/shell/key-bindings.zsh
 
 # Aliases
 source "$ZDOTDIR/aliases.zsh"
