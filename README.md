@@ -9,25 +9,6 @@ Powerful but tastefully minimal zsh configuration.
 ```sh
 paru -S zsh neovim eza bat fd fzf zoxide starship ripgrep
 ```
-
-### Ubuntu
-
-```sh
-sudo apt install zsh neovim eza bat fd-find fzf ripgrep
-# install zoxide and starship separately
-curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-curl -sS https://starship.rs/install.sh | sh
-# Ubuntu installs bat and fd under different names — symlink them so everything works
-ln -s $(which batcat) ~/.local/bin/bat
-ln -s $(which fdfind) ~/.local/bin/fd
-```
-
-### macOS
-
-```sh
-brew install zsh neovim eza bat fd fzf zoxide starship ripgrep
-```
-
 ## Setup
 
 **1. Clone the repo**
