@@ -61,14 +61,17 @@ if [[ -f /usr/share/fzf/key-bindings.zsh ]]; then
   source /usr/share/fzf/completion.zsh
 fi
 
+# Fedora
+if [[ -f /usr/share/fzf/shell/key-bindings.zsh ]]; then
+  source /usr/share/fzf/shell/key-bindings.zsh
+fi
+
 # =========================================================
 # Modular Config Files
 # =========================================================
 
 # fzf configuration
 source "$ZDOTDIR/fzf.zsh"
-# Enable fzf key bindings and auto-completion
-source /usr/share/fzf/shell/key-bindings.zsh
 
 # Aliases
 source "$ZDOTDIR/aliases.zsh"
