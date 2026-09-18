@@ -3,16 +3,16 @@ alias nv='nvim'
 alias snv='sudo -e'
 
 # Better ls
-alias ls='eza --color=always --group-directories-first --icons=always'
+alias ls='eza --color --icons --group-directories-first'
 
 # Detailed listing
-alias ll='eza -lh --color=always --group-directories-first --icons=always --git'
+alias ll='eza -lh --color --icons --group-directories-first --git'
 
 # Detailed listing including hidden files
-alias la='eza -lah --color=always --group-directories-first --icons=always --git'
+alias la='eza -lah --color --icons --group-directories-first --git'
 
 # Tree view
-alias tree='eza --tree --icons=always'
+alias tree='eza --tree --icons'
 
 # Dotfiles only
 alias l.="eza -a | grep -e '^\.'"
