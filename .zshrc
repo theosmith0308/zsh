@@ -31,9 +31,6 @@ if [[ -f ~/.config/lf/icons ]]; then
   export LF_ICONS
 fi
 
-# Initialize zoxide
-eval "$(zoxide init zsh)"
-
 # =========================================================
 # Completion
 # =========================================================

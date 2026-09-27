@@ -7,7 +7,7 @@ Powerful but tastefully minimal zsh configuration.
 ### Arch
 
 ```sh
-paru -S zsh neovim eza bat fd fzf zoxide starship ripgrep
+paru -S zsh neovim eza bat fd fzf starship ripgrep
 ```
 ## Setup
 
